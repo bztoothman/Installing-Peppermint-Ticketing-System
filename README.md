@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://i.imgur.com/b89vVVF.png"/>
+<img src="https://i.imgur.com/xJ7Nzqj.png"/>
 </p>
 
 <h1>Installing Peppermint Ticketing System on Ubuntu</h1>
@@ -30,10 +30,6 @@ You should see an IP address like 192.168.0.10. Note this down, as it will be us
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/VMTZmYU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-
 <h1>Step 2: Set Up the Project Directory</h1>
  
 <p>
@@ -45,10 +41,6 @@ Next, create a directory for Peppermint and navigate into it:
 mkdir peppermint
 cd peppermint
  ```
-<p>
-<img src="https://i.imgur.com/6VBDcOA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-
 <h1>Step 3: Create the Docker Compose File</h1>
 <p>
  Inside the peppermint directory, create a new file named docker-compose.yml using nano or your preferred text editor:
@@ -102,11 +94,8 @@ volumes:
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/aXMOIs4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
 <h2>Important:</h2>
-<p>- Replace 192.168.0.10 in API_URL with the IP address you obtained in Step 1.</p>
+<p>Replace 192.168.0.10 in API_URL with the IP address you obtained in Step 1.</p>
 Save the file by pressing CTRL + X, then Y to confirm, and ENTER to exit.
 
 <h1>Step 4: Start the Peppermint Ticketing System</h1>
